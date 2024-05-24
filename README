@@ -1,0 +1,9 @@
+neuralink-challenge
+===================
+
+Constraints
+-----------
+
+- real time: <1ms
+- low power: <10mW (how the fuck do I test for this)
+- goal is to archive > 200x compression
