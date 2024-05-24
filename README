@@ -7,3 +7,20 @@ Constraints
 - real time: <1ms
 - low power: <10mW (how the fuck do I test for this)
 - goal is to archive > 200x compression
+
+Getting the data set, reproducing the benchmarks
+------------------------------------------------
+
+    wget https://content.neuralink.com/compression-challenge/data.zip
+    unzip data.zip
+    make
+
+Results
+-------
+
+> for compressing 743 files.
+
+algorithm   improvement     size    time per file
+
+original    0x              143M    
+zstd        2.2x            65M     19ms
